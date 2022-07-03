@@ -26,7 +26,7 @@ body {
     font-weight: bolder;
     float: left;
     font-size: 22px !important;
-    font-family: "Ubuntu Thin";
+    font-family: "RobotoMono Nerd Font";
 }
 
 #getStarted {
@@ -55,7 +55,7 @@ body {
     margin: 50px auto 0 auto;
 }
 #section1a    {
-    width: 60%;
+    width: 50%;
     float: left;
 }
 #section1b  {
