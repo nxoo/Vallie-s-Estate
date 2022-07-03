@@ -1,6 +1,8 @@
 html,
 body {
-    padding: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
     margin: 0;
     line-height: 1.6;
     font-size: 18px;
@@ -10,9 +12,6 @@ body {
 }
 #nav {
     text-align: center;
-    padding-left: 15%;
-    padding-right: 15%;
-    padding-top: 2%;
 }
 .nav {
     text-decoration: none;
@@ -28,9 +27,11 @@ body {
     font-size: 22px !important;
 }
 
-#getstarted {
+#getStarted {
     background-color: #16d1b1;
     padding: 10px;
     color: white;
     border-radius: 5px;
+}
+.header {
 }
