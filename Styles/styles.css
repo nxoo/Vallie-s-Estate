@@ -33,5 +33,12 @@ body {
     color: white;
     border-radius: 5px;
 }
-.header {
+#learnMore {
+    background-color: #06879f;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+#header-title {
+    color: #615f5f;
 }
