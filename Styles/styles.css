@@ -1,0 +1,36 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    line-height: 1.6;
+    font-size: 18px;
+}
+* {
+    box-sizing: border-box;
+}
+#nav {
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 2%;
+}
+.nav {
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #888;
+}
+#heading {
+    font-weight: bolder;
+    float: left;
+    font-size: 22px !important;
+}
+
+#getstarted {
+    background-color: #16d1b1;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
