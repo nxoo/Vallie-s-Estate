@@ -1,62 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+
 html,
 body {
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 2%;
-    margin: 0;
+    font-size: 20px;
     line-height: 1.6;
-    font-size: 18px;
-}
-* {
-    box-sizing: border-box;
-}
-#nav {
-    text-align: center;
-    margin-bottom: 15px;
-}
-.nav {
-    text-decoration: none;
-    font-weight: bold;
-    text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
-    color: #888;
-}
-#heading {
-    font-weight: bolder;
-    float: left;
-    font-size: 22px !important;
-    font-family: "RobotoMono Nerd Font";
+    font-family: 'Roboto', sans-serif;
 }
 
-#getStarted {
-    background-color: #16d1b1;
-    padding: 10px;
-    color: white;
-    border-radius: 5px;
-    border: none;
-    float: right;
-    cursor: pointer;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-#learnMore {
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav {
+    border: 2px solid #E2E8F0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    margin-left: 2.5rem;
+}
+
+.nav-link{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #475569;
+}
+
+.nav-link:hover{
+    color: #482ff7;
+}
+
+.nav-brand {
+    font-size: 1.0rem;
+    font-weight: 500;
+    color: #482ff7;
+}
+
+
+#section1 {
+    width: 800px;
+    margin: 50px auto 0 auto;
+}
+
+#section1a    {
+    width: 50%;
+    float: left;
+}
+
+#section1a-title {
+    color: #615f5f;
+}
+
+#section1a-learn-more {
     background-color: #06879f;
     padding: 10px;
     color: white;
     border-radius: 5px;
     border: none;
     cursor: pointer;
-}
-#header-title {
-    color: #615f5f;
-}
-
-#section1 {
-    width: 800px;
-    margin: 50px auto 0 auto;
-}
-#section1a    {
-    width: 50%;
-    float: left;
 }
 #section1b  {
     width: auto;
