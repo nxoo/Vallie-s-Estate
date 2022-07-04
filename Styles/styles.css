@@ -22,7 +22,8 @@ a {
 }
 
 .nav {
-    border: 2px solid #E2E8F0;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .navbar {
@@ -70,6 +71,12 @@ a {
     font-size: 1.0rem;
     font-weight: 500;
     color: #482ff7;
+}
+
+.get-started {
+    background-color: #58bcd2;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 @media only screen and (max-width: 768px) {
