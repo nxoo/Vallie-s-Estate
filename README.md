@@ -1,15 +1,17 @@
 # Vallie's Estate
+
 Brian Wang'ombe  
-https://nxoo.github.io/Vallie-s-Estate/  
+https://nxoo.github.io/Vallie-s-Estate/
 
 ### This projects aims to recreate Vallie's Estate landing page and showcase the understanding of HTML & CSS basics.
-Setup Instructions  
 
-Open Terminal [CTRL + ALT + T]  
->`cd Documents`   
->`git clone https://github.com/nxoo/Vallie-s-Estate.git`   
->`cd Vallie-s-Estate`  
->`google-chrome index.html`
+Setup Instructions
+
+Open Terminal [CTRL + ALT + T]
+> `cd Documents`   
+> `git clone https://github.com/nxoo/Vallie-s-Estate.git`   
+> `cd Vallie-s-Estate`  
+> `google-chrome index.html`
 
 MIT License
 
@@ -33,18 +35,11 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-a|b|c|d
--|-|-|-
-a|b|d|d
-a|b|d|d
-a|b|d|d
-a|b|d|d
-a|b|d|d
-a|b|d|d
-a|b|d|d
-a|b|d|d
-a|b|d|d
-a|b|d|d
-a|b|d|d
-a|b|d|d
-a|b|d|d
+
+| a | b | c | d |
+| - | - | - | - |
+| a | b | c | d |
+| a | b | c | d |
+| a | b | c | d |
+
+Laughing Emoji! :joy:
