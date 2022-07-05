@@ -13,7 +13,9 @@ Open Terminal [CTRL + ALT + T]
 > `cd Vallie-s-Estate`  
 > `google-chrome index.html`
 
-[MIT License](https://github.com/nxoo/Vallie-s-Estate/blob/main/license)
+[MIT License](https://github.com/nxoo/Vallie-s-Estate/blob/main/license) Copyright (c) 2022 Brian Wang'ombe
+
+
 
 Copyright (c) 2022 Brian Wang'ombe
 
