@@ -1,13 +1,13 @@
 # Vallie's Estate
 
-Brian Wang'ombe  
-https://nxoo.github.io/Vallie-s-Estate/
+#### Author: **Brian Wang'ombe**
 
-### This projects aims to recreate Vallie's Estate landing page and showcase the understanding of HTML & CSS basics.
+#### Live Page: https://nxoo.github.io/Vallie-s-Estate/
 
-Setup Instructions
+**Description**: This projects aims to recreate Vallie's Estate landing page and showcase the understanding of HTML & CSS basics.
 
-Open Terminal - CTRL + ALT + T
+**Setup Instructions**   
+Open Terminal [ CTRL + ALT + T ]
 >`cd Documents`   
 `git clone https://github.com/nxoo/Vallie-s-Estate.git`   
 `cd Vallie-s-Estate`  
