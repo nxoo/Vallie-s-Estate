@@ -13,7 +13,6 @@ Open Terminal - CTRL + ALT + T
 `cd Vallie-s-Estate`  
 `google-chrome index.html`
 
-<<<<<<< HEAD
 ### MIT License
 
 Copyright (c) 2022 **Brian Wang'ombe**
@@ -35,6 +34,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-=======
-[MIT License](https://github.com/nxoo/Vallie-s-Estate/blob/main/license) Copyright (c) 2022 Brian Wang'ombe
->>>>>>> fccb32bf38c44d707f9d68f4b2d659d97dd6e146
