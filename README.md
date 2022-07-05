@@ -43,3 +43,4 @@ SOFTWARE.
 | a | b | c | d |
 
 Laughing Emoji! :joy:
+`That is so funny! :joy:
