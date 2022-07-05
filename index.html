@@ -10,68 +10,41 @@
 </head>
 <body>
 <div class="container">
-
-    <!-- navbar -->
-    <div class="nav">
-        <nav class="navbar">
-            <a href="#Home" class="nav-brand">Vallie's Estate</a>
-            <ul class="nav-menu">
-                <li class="nav-item">
-                </li>
-                <li class="nav-item">
-                    <a href="#Home" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#Rent" class="nav-link">Rent</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#Land" class="nav-link">Land</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#Agent" class="nav-link">Agent</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#Contact-Us" class="nav-link">Contact Us</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#Get-Started" class="nav-link get-started">Get Started</a>
-                </li>
-            </ul>
-        </nav>
-    </div>
-
-    <div class="wrapper">
-        <div class="section1a">
-            <h2 id="section1a-title">Helping you find the property of your dreams</h2>
-            <p>Creating quality urban lifestyles, building stronger communities</p>
-            <button id="section1a-learn-more">Learn More</button>
+    <header class="nav">
+        <div class="navbar">
+            <div class="brand">
+                <h1>Vallie's Estate</h1>
+            </div>
+            <div class="navbar-menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#rent">Rent</a></li>
+                    <li><a href="#land">Land</a></li>
+                    <li><a href="#agent">Agent</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="get-started">
+                <button id="get-started" class="btn">Get Started</button>
+            </div>
         </div>
-        <div class="section1b">
-            <img src="Images/luxury-modern-mansion.jpg" alt="modern mansion" height="200px" width="300px"
-                 id="section1b-img"/>
+    </header>
+
+    <!--    section A-->
+    <div class="main">
+        <div class="wrapper">
+            <div class="section1a">
+                <h2 id="section1a-title">Helping you find the property of your dreams</h2>
+                <p>Creating quality urban lifestyles, building stronger communities</p>
+                <button id="section1a-learn-more">Learn More</button>
+            </div>
+            <div class="section1b">
+                <img src="Images/luxury-modern-mansion.jpg" alt="modern mansion" height="200px" width="300px"
+                     id="section1b-img"/>
+            </div>
         </div>
     </div>
+
 </div>
-<script>
-    /*
-    const hamburger = document.querySelector(".hamburger");
-    const navMenu = document.querySelector(".nav-menu");
-
-    hamburger.addEventListener("click", mobileMenu);
-
-    function mobileMenu() {
-        hamburger.classList.toggle("active");
-        navMenu.classList.toggle("active");
-    }
-
-    const navLink = document.querySelectorAll(".nav-link");
-
-    navLink.forEach(n => n.addEventListener("click", closeMenu));
-
-    function closeMenu() {
-        hamburger.classList.remove("active");
-        navMenu.classList.remove("active");
-    }*/
-</script>
 </body>
 </html>

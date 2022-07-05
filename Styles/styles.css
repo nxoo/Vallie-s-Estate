@@ -1,102 +1,71 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+html,body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+    min-height: 100%;
 
-html,
+}
 body {
-    font-size: 20px;
-    line-height: 1.6;
-    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
+    font-family: "Space Grotesk", sans-serif;
+    background-color: #FAFAFA;
+    margin: auto;
 }
 
-.container {
-    margin: 0 200px;
-}
-
-@media (max-width: 576px) {
+@media (min-width: 1240px) {
     .container {
-        margin: 0;
+        max-width: 1290px !important;
+        margin: auto !important;
+        height: 100%;
     }
 }
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 0 0.5rem 0;
-    border-bottom: 2px solid gray;
+.container {
+    background-color: #FAFAFA;
+    width: 100%;
 }
 
-li {
+/* navigation part */
+.nav {
+    background-color: #FAFAFA;
+    width: 1290px;
+    border-bottom: 1px solid grey;
+    position: absolute;
+}
+.navbar {
+    padding: 15px;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.navbar-menu > ul {
+    display: flex !important;
+    align-items: center;
+}
+.navbar-menu > ul > li > a {
+    list-style: none;
+    font-size: 17px;
+    padding: 15px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+
+}
+.navbar-menu > ul > li {
     list-style: none;
 }
-
-a {
-    text-decoration: none;
+.navbar-menu > ul > li > a:hover {
+    color: #0F298B;
+    font-weight: 600;
 }
-
-.nav-menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.navbar-menu ul > li > .visited-link:visited {
+    color: #0F298B;
+    font-weight: 700;
 }
-
-.nav-brand {
-    font-weight: bolder;
-    padding: 10px;
-    font-family: "FiraMono Nerd Font Mono";
-    color: #475569;
-    border-radius: 5px;
+.brand > h1 {
+    font-family: "Oleo Script", cursive;
 }
-
-.nav-item {
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-}
-
-.nav-link {
-    font-size: 0.8rem;
-    font-weight: 400;
-    color: #475569;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-.nav-link:hover, .nav-brand:hover {
-    color: black;
-    background-color: #0dcaf0;
-}
-
-
-.get-started {
-    color: white;
-    background-color: #198754;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-@media only screen and (max-width: 768px) {
-    .nav-menu {
-        position: fixed;
-        left: -10%;
-        width: 100%;
-        top: 1rem;
-        flex-direction: column;
-        background-color: #fff;
-        border-radius: 10px;
-        text-align: center;
-        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
-        /*
-        transition: 0.3s;
-         */
-    }
-    .nav-menu {
-    }
-
-    .nav-item {
-        margin: 0.5rem 0;
-    }
-
-    .nav-brand {
-        display: none;
-    }
-}
-
