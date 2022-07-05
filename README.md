@@ -7,15 +7,15 @@ https://nxoo.github.io/Vallie-s-Estate/
 
 Setup Instructions
 
-Open Terminal [CTRL + ALT + T]
-> `cd Documents`   
-> `git clone https://github.com/nxoo/Vallie-s-Estate.git`   
-> `cd Vallie-s-Estate`  
-> `google-chrome index.html`
+Open Terminal - CTRL + ALT + T
+>`cd Documents`   
+`git clone https://github.com/nxoo/Vallie-s-Estate.git`   
+`cd Vallie-s-Estate`  
+`google-chrome index.html`
 
-MIT License
+### MIT License
 
-Copyright (c) 2022 Brian Wang'ombe
+Copyright (c) 2022 **Brian Wang'ombe**
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -34,13 +34,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-
-| a | b | c | d |
-| - | - | - | - |
-| a | b | c | d |
-| a | b | c | d |
-| a | b | c | d |
-
-Laughing Emoji! :joy:
-`That is so funny! :joy:
