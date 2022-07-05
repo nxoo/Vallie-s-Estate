@@ -192,3 +192,107 @@ span {
     font-size: 23px;
     cursor: pointer;
 }
+
+.products {
+    margin: 90px auto 0;
+}
+.tproduct {
+    color: #0f298b;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.products .opproduct {
+    text-align: center;
+}
+.card1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card1 .card1a {
+    width: 30%;
+    max-width: 30%;
+    background-color: #FAFAFA;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    display: block;
+    height: 300px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+
+}
+.card1 .card1a:hover {
+    box-shadow: grey 6px 2px 16px 0px;
+    cursor: pointer;
+}
+.imgcard1a {
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+}
+.imgcard1a > img {
+    height: inherit;
+    margin: 0 auto;
+}
+
+.imgcard1ainfo > h3 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.imgcard1ainfo > p {
+    font-size: 17px;
+    font-weight: 450;
+    margin-top: 20px;
+    color: rgb(75, 73, 73);
+}
+.pparagraph {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.footer {
+    height: 600px;
+    background-color: #0f298b;
+    max-width: 1024px;
+    padding-top: 100px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 80px;
+    padding-top: 40px;
+}
+.fdetails {
+    width: 20%;
+}
+.fdetails > h2 {
+    color: #FAFAFA;
+    padding-right: 20px;
+    padding-bottom: 5px
+}
+.flogo {
+    color: #FAFAFA;
+    font-size: 13px;
+}
+.fdetails > ul > li {
+    list-style: none;
+    margin-top: 20px;
+}
+.fdetails > ul > li a {
+    text-decoration: none;
+    margin-top: 20px;
+    color: #FAFAFA;
+    font-size: 15px;
+}
+.fdetails > p {
+    color: #FAFAFA;
+    font-size: 15px;
+}
