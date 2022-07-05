@@ -69,3 +69,126 @@ body {
 .brand > h1 {
     font-family: "Oleo Script", cursive;
 }
+
+.btn {
+    border: none;
+    background-color: #2549d3;
+    color: #FAFAFA;
+    font-size: 16px;
+    font-weight: 600 !important;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 7px;
+
+}
+.btn:hover {
+    box-shadow: #0F298B;
+}
+
+#get-started {
+    cursor: pointer;
+    margin-right: 130px;
+    border-radius: 5px;
+    padding: 8px 8px 8px 8px;
+}
+
+.section1 {
+    padding-top: 140px;
+    width: 80%;
+    margin: auto;
+}
+.material-symbols-rounded {
+    font-variation-settings: "FILL" 500, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+.icon-edit {
+    font-size: 40px;
+    background-color: #0f298b;
+    color: #FAFAFA;
+    border-radius: 50px;
+}
+.section1a {
+    display: flex;
+    align-items: center;
+}
+.image1 {
+    height: 350px;
+    width: 450px;
+    margin-left: 45px;
+
+}
+.image1 > img {
+    width: inherit;
+    height: inherit;
+}
+.section1text1 > h1 {
+    color: #0F298B;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.section1text1 > p {
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: 400;
+    color: black;
+}
+.section1btn {
+    display: flex;
+    align-items: center;
+    width: 45%;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 8px 8px 8px 8px;
+}
+
+.section2{
+    width: 90%;
+    margin: 100px auto 0;
+    background-color: #FAFAFA;
+    border-radius: 20px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+.section2 .section2a {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    padding: 30px;
+}
+.section2b > option {
+    color: grey;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+#search {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 8px 8px 8px 8px;
+}
+#search > span {
+    margin-right: 10px;
+    color: #FAFAFA;
+    padding-right: 20px;
+    padding-left: -40px;
+}
+.b-icon {
+    display: flex;
+    align-items: center;
+
+}
+.b-icon > label,
+span {
+    color: #0f298b;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+#search.material-symbols-rounded {
+    font-size: 23px;
+    cursor: pointer;
+}
