@@ -5,7 +5,7 @@ https://nxoo.github.io/Vallie-s-Estate/
 ### This projects aims to recreate Vallie's Estate landing page and showcase the understanding of HTML & CSS basics.
 Setup Instructions  
 
->Open Terminal [CTRL + ALT + T]  
+Open Terminal [CTRL + ALT + T]  
 >`cd Documents`   
 >`git clone https://github.com/nxoo/Vallie-s-Estate.git`   
 >`cd Vallie-s-Estate`  
