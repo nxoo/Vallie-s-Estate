@@ -193,16 +193,16 @@ span {
     cursor: pointer;
 }
 
-.products {
+.p {
     margin: 90px auto 0;
 }
-.tproduct {
+.tp {
     color: #0f298b;
     font-size: 20px;
     font-weight: 300;
 }
 
-.products .opproduct {
+.p .opp {
     text-align: center;
 }
 .card1 {
